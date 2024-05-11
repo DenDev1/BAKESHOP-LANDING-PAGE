@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+    background-image: url(/img/bakeshop123.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid goldenrod;
+
+}
+nav{
+    width: 100vw;
+    text-align: center;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+nav ul li a{
+    color: white;
+    margin: 5px 25px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.2rem;
+}
+header img{
+    width: 70px;
+    margin: 5px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.area{
+    width: 100vw;
+    height: 100vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+}
+.area .content{
+    
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+
+   
+}
+.content h1{
+    font-size: 3.5rem;
+    font-weight: 100;
+    
+
+}
+.content h1 span{
+    font-size: 5.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: goldenrod;
+   
+    
+}
+.content h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.content h2 span{
+    font-size: 2.5rem;
+    color:  goldenrod;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.content p {
+    line-height: 1.6;
+    font-weight: 100;
+
+}
+.btn{
+    padding: 15px 25px;
+    cursor: pointer;
+    background-color: goldenrod;
+    color:  white;
+    text-transform: uppercase;
+    transition: 0.5s;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.btn:hover{
+    letter-spacing: 3px;
+    transition: 0.5s    ;
+}
+nav ul li a:hover{
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid goldenrod;
+    transition: 0.5s;
+}
+header img:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
+
+
